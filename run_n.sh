@@ -7,7 +7,6 @@ progressive_load=$(<configurations/progressive_load)
 progressive_load_timeout=$(<configurations/progressive_load_timeout)
 terminal_name=$(<configurations/terminal_name)
 shell_name=$(<configurations/shell_name)
-echo $num_of_users $progressive_load $progressive_load_timeout
 # number of users loop
 for (( c=0; c<$num_of_users; c++ ))
 do
