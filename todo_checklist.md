@@ -18,3 +18,6 @@
     -   options
     -   post data if required and its boolean configuration
     -   logger booleans for request , payload, Response
+
++   linux shell script
+    -   test the script
