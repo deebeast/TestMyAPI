@@ -11,7 +11,11 @@
     },
     "logs": {
         "logging_type": "file",
-        "logging_enabled_for": ["request", "payload", "response"],
+        "logging_enabled_for": [
+            "request",
+            "payload",
+            "response"
+        ],
         "path": "logs/specific_log_folder",
         "file_name": "specific_log_folder-%DATE%.log",
         "date_pattern": "DD-MM-YYYY-HH",
