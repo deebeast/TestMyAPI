@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # File that creates all configuration to code
-# node configurations.js
+node configurations.js
 num_of_users=$(<configurations/num_of_users)
 progressive_load=$(<configurations/progressive_load)
 progressive_load_timeout=$(<configurations/progressive_load_timeout)
