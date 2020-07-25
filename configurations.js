@@ -8,7 +8,7 @@ file_names.forEach(file_name => {
         if (err) console.log(`${file_name} File does not exist!`);;
         console.log(`${file_name} File deleted!`);
     });
-    fs.writeFile(`${base_config_path}${file_name}`, configurations[file_name], function (err) {
+    fs.writeFile(`${base_config_path}${file_name}`, configurations.load_parameters[file_name], function (err) {
         if (err) throw err;
         console.log(`${file_name} Saved!`);
     });

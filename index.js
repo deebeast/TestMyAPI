@@ -7,4 +7,4 @@ var configurations = require("./configurations/configurations.json")
  * concurrent request interval
  */
 
-setInterval(api_call_back, configurations.concurrent_request_interval);
+setInterval(api_call_back, configurations.load_parameters.concurrent_request_interval);
