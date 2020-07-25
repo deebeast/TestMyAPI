@@ -1,0 +1,24 @@
+{
+    "num_of_users": 2,
+    "progressive_load": true,
+    "progressive_load_timeout": 5,
+    "concurrent_request_interval": 30000,
+    "api_details": {
+        "options": {},
+        "payload": {}
+    },
+    "logs": {
+        "logging_type": "file",
+        "logging_enabled_for": [
+            "request",
+            "payload",
+            "response"
+        ],
+        "path": "logs/specific_log_folder",
+        "file_name": "specific_log_folder-%DATE%.log",
+        "date_pattern": "DD-MM-YYYY-HH",
+        "zipped_archive": false,
+        "max_file_size": "1m",
+        "max_files": "14d"
+    }
+}
