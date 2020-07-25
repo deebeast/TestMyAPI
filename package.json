@@ -1,30 +1,30 @@
 {
-  "name": "testmyapi",
-  "version": "1.0.0",
-  "description": "TestMyAPI is used to stress test an API and log its responses",
-  "main": "index.js",
-  "scripts": {
-    "test": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deebeast/TestMyAPI.git"
-  },
-  "keywords": [
-    "node",
-    "stress",
-    "test",
-    "api"
-  ],
-  "author": "deebeast",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/deebeast/TestMyAPI/issues"
-  },
-  "homepage": "https://github.com/deebeast/TestMyAPI#readme",
-  "dependencies": {
-    "follow-redirects": "^1.12.1",
-    "winston": "^3.3.3",
-    "winston-daily-rotate-file": "^4.5.0"
-  }
+    "name": "testmyapi",
+    "version": "1.0.0",
+    "description": "TestMyAPI is used to stress test an API and log its responses",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deebeast/TestMyAPI.git"
+    },
+    "keywords": [
+        "node",
+        "stress",
+        "test",
+        "api"
+    ],
+    "author": "deebeast",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/deebeast/TestMyAPI/issues"
+    },
+    "homepage": "https://github.com/deebeast/TestMyAPI#readme",
+    "dependencies": {
+        "follow-redirects": "^1.12.1",
+        "winston": "^3.3.3",
+        "winston-daily-rotate-file": "^4.5.0"
+    }
 }
