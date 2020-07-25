@@ -21,3 +21,5 @@
 
 +   linux shell script
     -   test the script
+
++   make dispatch check and run automatically based on os
