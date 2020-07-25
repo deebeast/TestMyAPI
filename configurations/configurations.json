@@ -3,6 +3,9 @@
     "progressive_load": true,
     "progressive_load_timeout": 5,
     "concurrent_request_interval": 30000,
+    "terminal_name": "gnome-terminal",
+    "os_type": "linux",
+    "shell_name": "bash",
     "api_details": {
         "options": {},
         "payload": {}

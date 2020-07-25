@@ -1,7 +1,7 @@
 var base_config_path = "./configurations/"
 var configurations = require(`${base_config_path}configurations.json`)
 var fs = require('fs');
-var file_names = ['num_of_users', 'progressive_load', 'progressive_load_timeout'];
+var file_names = ['num_of_users', 'progressive_load', 'progressive_load_timeout', 'terminal_name'];
 
 file_names.forEach(file_name => {
     fs.unlink(`${base_config_path}${file_name}`, function (err) {
