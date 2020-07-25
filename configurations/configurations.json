@@ -3,7 +3,7 @@
         "num_of_users": 2,
         "progressive_load": true,
         "progressive_load_timeout": 5,
-        "concurrent_request_interval": 30000
+        "concurrent_request_interval": 4
     },
     "api_details": {
         "options": {},
