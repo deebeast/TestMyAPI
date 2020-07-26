@@ -3,6 +3,8 @@
 
 ## `NOTES`
 +   refer configurations/configurations.json for all available configs 
-+   run_n.bat to execute in windows machine and close cmds to stop
-+   alternatively run node scratchpad\dispatch.js on windows
-+   pending linux shell scripts testing 
++   windows
+    +   run_n.bat to execute in windows machine and close cmds to stop
+    +   alternatively run node scratchpad\dispatch.js on windows
++   linux
+    +   pending linux shell scripts testing 
